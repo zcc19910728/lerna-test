@@ -1,0 +1,34 @@
+{
+  "name": "@yt/admin-copy",
+  "version": "0.1.0",
+  "dependencies": {},
+  "scripts": {
+    "start": "yt-react-scripts start",
+    "build": "yt-react-scripts build",
+    "lib": "rimraf lib && ./node_modules/.bin/babel --no-babelrc src --out-dir lib --config-file ./babelConfig.json",
+    "publish-to-npm": "npm run lib && npm run build && ytnpm publish",
+    "test": "yt-react-scripts test",
+    "eject": "yt-react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "main": "lib/Main.js",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@yt/rc-react-scripts": "^1.0.3",
+    "babel-plugin-import": "^1.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
