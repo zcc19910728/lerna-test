@@ -1,7 +1,9 @@
 {
   "name": "@yt/admin-copy",
-  "version": "0.1.1",
-  "dependencies": {},
+  "version": "0.1.2",
+  "dependencies": {
+    "react-copy-to-clipboard": "^5.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git@git.hipac.cn:fed-common-antd/admin-copy.git"
@@ -11,7 +13,7 @@
     "start": "yt-react-scripts start",
     "build-dev": "echo '请输入版本号' && read bv && yt-react-scripts build --env=dev --bv=${bv}",
     "build": "echo '请输入版本号' && read bv && yt-react-scripts build --env=prod --bv=${bv}",
-    "build-version": "yt-react-scripts build --env=prod --bv=0.1.1",
+    "build-version": "yt-react-scripts build --env=prod --bv=0.1.2",
     "lib": "rimraf lib && ./node_modules/.bin/babel --no-babelrc src --out-dir lib --config-file ./babelConfig.json",
     "publish-to-npm": "npm run lib && npm run build && ytnpm publish",
     "test": "yt-react-scripts test",
@@ -37,7 +39,6 @@
     "antd": "^3.15.2",
     "babel-plugin-import": "^1.11.0",
     "react": "^16.8.6",
-    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6"
   }
 }
