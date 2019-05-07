@@ -5,13 +5,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+require("antd/lib/message/style");
+
+var _message2 = _interopRequireDefault(require("antd/lib/message"));
+
 var _react = _interopRequireWildcard(require("react"));
 
 var _Main = _interopRequireDefault(require("./Main"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -38,23 +42,24 @@ var Demo =
 function (_Component) {
   _inherits(Demo, _Component);
 
-  function Demo() {
-    var _getPrototypeOf2;
-
+  function Demo(props) {
     var _this;
 
     _classCallCheck(this, Demo);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Demo).call(this, props));
 
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Demo)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _defineProperty(_assertThisInitialized(_this), "callback", function (text, success) {
+      if (success) {
+        _message2.default.success("\u590D\u5236\u6210\u529F\uFF0C\u5185\u5BB9: ".concat(text));
 
-    _defineProperty(_assertThisInitialized(_this), "callback", function (e) {
-      return console.log(666);
+        return;
+      }
+
+      _message2.default.error("\u590D\u5236\u5931\u8D25");
     });
 
+    _this.text = '我是666';
     return _this;
   }
 
@@ -65,11 +70,19 @@ function (_Component) {
         style: {
           padding: 20
         }
-      }, _react.default.createElement(_Main.default, {
+      }, this.text, _react.default.createElement(_Main.default, {
+        style: {
+          marginLeft: 10,
+          display: 'inline-block'
+        },
         callBack: this.callback,
-        text: "\u5C55\u793A\u6587\u672C",
-        copyData: "\u590D\u5236\u6587\u672C"
-      }));
+        copyData: this.text
+      }, _react.default.createElement("span", {
+        style: {
+          cursor: 'pointer',
+          color: '#1890ff'
+        }
+      }, "\u590D\u5236")));
     }
   }]);
 

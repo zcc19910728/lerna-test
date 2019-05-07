@@ -1,15 +1,15 @@
 {
-  "static/js/0.ef93c1bf.chunk.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/0.ef93c1bf.chunk.js",
-  "static/js/0.ef93c1bf.chunk.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/0.ef93c1bf.chunk.js.map",
-  "vendor.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/vendor.8dd65e47.js",
-  "vendor.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/vendor.8dd65e47.js.map",
-  "main.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/main.cf0fbece.js",
-  "main.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/main.cf0fbece.js.map",
-  "static/css/3.452da996.chunk.css": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/css/3.452da996.chunk.css",
-  "static/js/3.e982a74d.chunk.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/3.e982a74d.chunk.js",
-  "static/js/3.e982a74d.chunk.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/js/3.e982a74d.chunk.js.map",
-  "static/css/3.452da996.chunk.css.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/static/css/3.452da996.chunk.css.map",
-  "index.html": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/index.html",
-  "precache-manifest.9ff7fd50f41f9f49c8a5ae5a633d8063.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/precache-manifest.9ff7fd50f41f9f49c8a5ae5a633d8063.js",
-  "service-worker.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.0/service-worker.js"
+  "static/js/0.a0e1f9fa.chunk.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/0.a0e1f9fa.chunk.js",
+  "static/js/0.a0e1f9fa.chunk.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/0.a0e1f9fa.chunk.js.map",
+  "vendor.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/vendor.bb8d901c.js",
+  "vendor.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/vendor.bb8d901c.js.map",
+  "main.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/main.7054d80f.js",
+  "main.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/main.7054d80f.js.map",
+  "static/css/3.93d5cfde.chunk.css": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/css/3.93d5cfde.chunk.css",
+  "static/js/3.8d7ba87a.chunk.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/3.8d7ba87a.chunk.js",
+  "static/js/3.8d7ba87a.chunk.js.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/js/3.8d7ba87a.chunk.js.map",
+  "static/css/3.93d5cfde.chunk.css.map": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/static/css/3.93d5cfde.chunk.css.map",
+  "index.html": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/index.html",
+  "precache-manifest.0aee7c2255af67815b8e21e989cfb01b.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/precache-manifest.0aee7c2255af67815b8e21e989cfb01b.js",
+  "service-worker.js": "https://ytstatic.hipac.cn/asset/fed-common-antd/admin-copy/0.1.1/service-worker.js"
 }

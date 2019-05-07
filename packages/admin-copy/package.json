@@ -1,6 +1,6 @@
 {
   "name": "@yt/admin-copy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {},
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "start": "yt-react-scripts start",
     "build-dev": "echo '请输入版本号' && read bv && yt-react-scripts build --env=dev --bv=${bv}",
     "build": "echo '请输入版本号' && read bv && yt-react-scripts build --env=prod --bv=${bv}",
-    "build-vesion": "yt-react-scripts build --env=prod --bv=0.1.0",
+    "build-version": "yt-react-scripts build --env=prod --bv=0.1.1",
     "lib": "rimraf lib && ./node_modules/.bin/babel --no-babelrc src --out-dir lib --config-file ./babelConfig.json",
     "publish-to-npm": "npm run lib && npm run build && ytnpm publish",
     "test": "yt-react-scripts test",
@@ -26,7 +26,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "main": "lib/PopTag.js",
+  "main": "lib/Main.js",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
@@ -37,6 +37,7 @@
     "antd": "^3.15.2",
     "babel-plugin-import": "^1.11.0",
     "react": "^16.8.6",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6"
   }
 }
