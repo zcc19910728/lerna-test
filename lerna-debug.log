@@ -1,8 +1,8 @@
-42 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
-42 error Fatal: HttpRequestException encountered.
-42 error bash: /dev/tty: No such device or address
-42 error error: failed to execute prompt script (exit code 1)
-42 error fatal: could not read Username for 'https://github.com': Invalid argument
-42 error
-42 error     at makeError (C:\Users\zcc\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
-42 error     at Promise.all.then.arr (C:\Users\zcc\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:278:16)
+49 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+49 error Fatal: HttpRequestException encountered.
+49 error bash: /dev/tty: No such device or address
+49 error error: failed to execute prompt script (exit code 1)
+49 error fatal: could not read Username for 'https://github.com': Invalid argument
+49 error
+49 error     at makeError (C:\Users\zcc\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
+49 error     at Promise.all.then.arr (C:\Users\zcc\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:278:16)
