@@ -1,5 +1,5 @@
 {
-  "name": "lerna-test-npm-11",
+  "name": "lerna-test-npm-jb",
   "version": "1.0.4",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "50efc8225416eec0570c2a1dfe7e93f99ac303d8"
 }
