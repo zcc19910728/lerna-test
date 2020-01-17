@@ -1,6 +1,6 @@
 {
   "name": "lerna-test-npm-22",
-  "version": "1.0.3",
+  "version": "1.0.3-beta",
   "description": "",
   "main": "index.js",
   "scripts": {
