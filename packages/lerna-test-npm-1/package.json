@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "9bc2e653c0a2c4b59c8117bd097f12d1d205b8ba"
+  "gitHead": "9bc2e653c0a2c4b59c8117bd097f12d1d205b8ba",
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.31"
+  }
 }
