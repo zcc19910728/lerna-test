@@ -1,1 +1,1 @@
-console.log('我是lerna-test-npm-333')
+console.log('我是lerna-test-npm-222')
