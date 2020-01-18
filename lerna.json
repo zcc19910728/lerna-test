@@ -18,7 +18,7 @@
     }
   },
   "publishConfig": {
-    "directory": "lib"
+    "directory": "dist"
   },
   "packages": [
     "packages/*"
