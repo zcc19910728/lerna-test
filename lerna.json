@@ -3,14 +3,24 @@
   "npmClient": "npm",
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "发布版本",
       "registry": "https://npm.pkg.github.com"
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
-  "packages": ["packages/*"]
+  "publishConfig": {
+    "directory": "lib"
+  },
+  "packages": [
+    "packages/*"
+  ]
 }
